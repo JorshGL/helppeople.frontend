@@ -1,8 +1,8 @@
 import React from 'react'
 import Button from "@mui/material/Button"
-import { AdminPanelSettings, HowToReg, ManageAccounts, Work } from '@mui/icons-material'
+import { AdminPanelSettings, HowToReg, Work } from '@mui/icons-material'
 
-function SideBar() {
+const SideBar = () => {
   const links = [
     {
       'name': 'Registrar ciudadano',

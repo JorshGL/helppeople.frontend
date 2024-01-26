@@ -8,7 +8,7 @@ import { DatePicker } from "@mui/x-date-pickers/DatePicker";
 import Button from "@mui/material/Button";
 import { Save } from "@mui/icons-material";
 
-function RegisterCitizen() {
+const RegisterCitizen = () => {
   const [idDocumentTypes, setIdDocumentTypes] = useState([]);
   const [fetchingIdDocumentTypes, setFetchingIdDocumentTypes] = useState(false);
   const [data, setData] = useState({
